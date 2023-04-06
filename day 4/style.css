@@ -1,0 +1,81 @@
+/*The Tag Selector*/
+body {
+    background-color: khaki;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    color: darkgreen;
+}
+
+/*dimension: px, %, em*/
+/*color: name, #000000, rgb(r,g,b) */
+
+/*Class Selector*/
+
+.first_para {
+    color: deeppink;
+}
+
+.red_apple {
+    background-color: green;
+}
+
+.green_apple {
+    background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/* ID selector*/
+#special {
+    background-color: rgb(70, 20, 60);
+    color: deepskyblue;
+    font-weight: bold;
+}
+
+/*Grouping the selectors*/
+.ekgroup,
+h1 {
+    background-color: rgb(38, 229, 181);
+    color: rgb(218, 32, 113);
+    font-weight: bold;
+}
+
+/*Pseudo Selector*/
+.app {
+    color: brown;
+}
+
+.app:hover {
+    background-color: gold;
+    color: darkgreen;
+    font-weight: bold;
+}
+/*Playing with Div and Display*/
+.square100{
+    height: 100px;
+    width: 100px;
+}
+
+.firstBox{
+    background-color: red;
+}
+
+.secondBox{
+    background-color: green;
+    margin-inline-start: 100px;
+
+}
+
+.thirdBox{
+    background-color: blue;
+    margin-block-start:-200px;
+    margin-inline-start:200px; 
+}
