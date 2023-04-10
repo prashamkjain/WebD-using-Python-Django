@@ -1,0 +1,49 @@
+Git Commands
+
+clone repository
+git clone "the_other_repo"
+
+git init 
+Initialise git repository
+(Makes a .git account)
+
+Check the status of file
+git status
+
+configuration of email and username
+git config username "Github username"
+git config user.email "youremailaddress"
+
+Staging the files
+git add filename, filename2
+
+or
+
+git add .
+(to stage all files)
+
+#One time step(adding remote to your git)
+git remote add original "http://url_of_our_git_repo.git"
+
+Commit the changes (important)
+git commit -m "any message stating for what this commit is"
+
+choose branch
+git checkout master
+
+or 
+
+git checkout -b nayi_branch
+
+Push the changes to your branch
+git push origin branch_name
+
+#Pull the content from a branch
+git pull origin branch_name
+
+#merge the changes in current branch
+git merge
+
+Fetch all the tree structure from remote
+git fetch
+
